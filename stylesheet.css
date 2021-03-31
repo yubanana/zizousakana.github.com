@@ -1,0 +1,67 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.all{
+  background-image:url(https://fishingjapan.jp/cmsimg/tpc2036-main.jpg);
+  background-size:cover;
+  height:1000px;
+}
+.title{
+  font-size:120px;
+  text-align:center;
+  margin-top:100px;
+  color:blue;
+}
+.pro{
+  padding-top:80px;
+}
+.pro h2{
+  font-size:40px;
+  color:#ff00ff;
+  padding-left:150px;
+}
+.pro p{
+  font-size:31px;
+  color:white;
+  padding-left:170px;
+  padding-right:250px;
+}
+.pro span{
+  color:red;
+  font-size:25px;
+}
+.doga{
+  padding-left:150px;
+  padding-top:100px;
+}
+.doga h2{
+  font-size:40px;
+  color:#ff00ff;
+}
+.btn{
+  display:inline-block;
+  padding:5px 24px;
+  margin:10px;
+  color:red;
+  font-size:25px;
+  border-radius:4px;
+  opacity:0.8;
+  background-color:white;
+}
+.btn:hover{
+  opacity:1;
+  background-color:lavender;
+}
